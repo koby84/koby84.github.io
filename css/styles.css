@@ -1,0 +1,137 @@
+
+body {
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+header{
+  background-color: rgb(13, 13, 212);
+  margin: 0;
+  color: white;
+  padding: 0;
+  border: red;
+  overflow: hidden;
+  height: 50px;
+  border-bottom: red 3px solid;
+ 
+
+}
+header .hajlajt{
+  color: red;
+  text-transform: uppercase;
+
+}
+
+header h1{
+  padding-left: 50px;
+  margin-top:auto;
+}
+
+header a{
+  color: #f4f4f4;
+  text-transform: capitalize;
+  font-size: 1rem;
+  text-decoration: none;
+  margin-top: auto;
+  
+}
+
+header ul{
+  margin: 0;
+  padding: 0;
+}
+
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header nav{
+  float:right;
+  margin-top: -42px;
+
+}
+
+ 
+main h1{
+  text-align: center;
+  text-decoration: none;
+  padding: 5px;
+  margin: 5px;
+  border-left: dotted 2px gray;
+  border-right: dotted 2px gray;
+}
+
+main .galerija{
+  padding:10px;
+  margin: 10px;
+}
+
+main img{
+  width:230px;
+  margin: 3px;
+  padding: 3px;
+  filter: grayscale(100%);
+  transition: 1s;
+
+}
+
+main img:hover{
+  filter: grayscale(0);
+  transform: scale(1.1)
+}
+
+footer{
+  height: 30px;
+  background-color: red;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+section{
+  margin: 0;
+  padding: 0;
+
+}
+section {
+
+}
+
+section .slika{
+  margin-left:100px;
+  padding: 0;
+  display:inline;
+}
+section .ime{
+  float:right;
+  width: 30%;
+  background-color: rgb(13, 13, 212);
+  margin-top: -810px;
+  padding-top: 0px;
+  color: white;
+  display: inline;
+}
+
+section .ime h1{
+  text-align: center;
+}
+
+section .ime p{
+  text-align: center;
+  margin: 10px;
+  padding: right 100px;
+}
+section .ime{
+  margin: 10px 10px 50px 0;
+  padding-top:0;
+}
+
+footer{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+
